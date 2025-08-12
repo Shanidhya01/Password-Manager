@@ -21,6 +21,10 @@ const port = 3000
 app.use(bodyparser.json())
 app.use(cors())
 
+// Health check route
+app.get("/", (req, res) => {
+  res.send("Backend server is running ✅");
+});
 
 // Get all the passwords
 app.get('/', async (req, res) => {

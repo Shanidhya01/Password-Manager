@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {LuGithub } from "react-icons/lu"
 function Navbar() {
   return (
     <nav className='bg-slate-800 text-white'>
@@ -17,9 +17,8 @@ function Navbar() {
           </li>
         </ul>  */}
         <button className='text-white bg-green-700 my-5 rounded-full flex gap-0.5 justify-between items-center px-2 py-1'>
-          <img className='invert w-10' src='icons/github.svg' alt='github'/>
+          <LuGithub className='w-6 h-6' />
           <span className='font-bold px-1'></span>
-          
           <a
             href='https://github.com/Shanidhya01'
             target='_blank'
