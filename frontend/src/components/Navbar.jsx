@@ -16,17 +16,15 @@ function Navbar() {
             <a className='hover:font-bold' href='#'>Contact</a>
           </li>
         </ul>  */}
-        <button className='text-white bg-green-700 my-5 rounded-full flex gap-0.5 justify-between items-center px-2 py-1'>
-          <LuGithub className='w-6 h-6' />
-          <span className='font-bold px-1'></span>
-          <a
-            href='https://github.com/Shanidhya01'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='btn-primary group'>
-            <span className='font-semibold tracking-wide'>GitHub</span>
-          </a>
-        </button>
+            <a
+              href='https://github.com/Shanidhya01'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-white bg-green-700 hover:bg-green-600 transition my-5 rounded-full flex gap-1 items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500'
+            >
+              <LuGithub className='w-6 h-6' />
+              <span className='font-semibold'>GitHub</span>
+            </a>
       </div>
     </nav>
   )
